@@ -3,16 +3,9 @@
 Project that implements a CNN created from scratch to clssify the CIFAR-10 dataset. It has been developed using pytorch in the vscode environment. Training and evaluation has been performed on Google Colab (using GPU)
 
 ## Project structure
-root/
-├─ src/
-│ ├─ config.py # Hyperparameters
-│ ├─ dataloader.py # Preprocessed data and dataloaders
-│ ├─ model.py # Model definition
-│ └─ main.py # Training and evaluation
-├─ data/ 
-├─ outputs/ # Trained models and results
-├─ requirements.txt 
-└─ README.md
+```bash
+tree
+```
 
 ## Usage
 ### Training
