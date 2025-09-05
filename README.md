@@ -16,7 +16,11 @@ root/
 
 ## Usage
 ### Training
-Execute the main script by using: python src/main.py -> it is recomended the usage of GPU to train fasly (i.e. Google Colab)
+Execute the main script by using: 
+```bash
+python src/main.py
+```
+Tt is recomended the usage of GPU to train fasly (i.e. Google Colab)
 It will show the loss during the training and testing and the final loss.
 The best model trained will be saved as best_model.pth
 
