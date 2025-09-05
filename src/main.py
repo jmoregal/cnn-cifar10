@@ -90,5 +90,6 @@ def main():
         # Final accuracy check on training and test sets
     check_accuracy(trainloader, modelo)
     check_accuracy(testloader, modelo)
-
-main()
+    
+if __name__ == "__main__":  
+    main()

@@ -28,14 +28,14 @@ trainloader = torch.utils.data.DataLoader(
     trainset,
     batch_size=64,          # número de imágenes por batch
     shuffle=True,           # mezcla los datos
-    num_workers=2           # procesos en paralelo
+    num_workers=0           # procesos en paralelo
 )
 
 testloader = torch.utils.data.DataLoader(
     testset,
     batch_size=64,
     shuffle=False,
-    num_workers=2
+    num_workers=0
 )
 
 # 4. Clases disponibles en CIFAR-10
