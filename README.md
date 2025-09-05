@@ -4,7 +4,16 @@ Project that implements a CNN created from scratch to clssify the CIFAR-10 datas
 
 ## Project structure
 ```bash
-tree
+root/
+├─ src/
+│  ├─ config.py        # Hyperparameters
+│  ├─ dataloader.py    # Preprocessed data and DataLoaders
+│  ├─ model.py         # Model definition
+│  └─ main.py          # Training and evaluation
+├─ data/               # Dataset folder (ignored in Git)
+├─ outputs/            # Trained models and results (ignored in Git)
+├─ requirements.txt
+└─ README.md
 ```
 
 ## Usage
